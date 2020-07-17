@@ -1,0 +1,131 @@
+/* HEADER
+-------------------------------------------------------------*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* --- Profile Card --- */
+.profile-card {
+    display: flex;
+    margin: 1rem 0 0 1rem;
+    align-items: center;
+}
+
+.profile-img {
+    height: 150px;
+    width: 150px;
+    background-color: var(--dark-gray);
+    border-bottom: 12px solid var(--green);
+    border-radius: 75px;
+    overflow: hidden;
+}
+
+.profile-img img {
+    max-width: 100%;
+}
+
+.text h2 {
+    margin: 0 0 0.5rem 1rem;
+}
+
+.text h4 {
+    margin: 0 0 0 1rem;
+}
+
+/* --- Contact Button --- */
+button {
+    outline: none;
+    margin: 0 1rem 0 0;
+    padding: 0.15rem 0.9rem;
+    background-color: var(--dark-green);
+    border: none;
+    border-radius: 4px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    color: white;
+    transition: all 0.15s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--light-green);
+    transform: scale(1.1);
+}
+
+/* MAIN
+-------------------------------------------------------------*/
+main {
+    margin: 4rem 6rem 0 6rem;
+    text-align: center;
+}
+
+/* --- Presentation --- */
+.presentation p {
+    width: 80%;
+    margin: 1.5rem auto 0 auto;
+    padding: 0 0 3rem 0;
+    font-size: 1.2rem;
+}
+
+/* --- Services --- */
+.services {
+    display: flex;
+    width: 100%;
+    max-height: 201px;
+    justify-content: space-between;
+    padding: 2rem 0 2rem 0;
+    border-top: 1px solid var(--green);
+    border-bottom: 1px solid var(--green);
+    
+}
+
+article {
+    width: 20%;
+    height: max-content;
+    padding: 1rem 0.6rem;
+    min-width: 170px;
+    max-width: 300px;
+    transition: all 0.3s;
+}
+
+article img {
+    width: 75px;
+    height: 75px;
+    margin: 0 0 0.5rem 0;
+}
+
+article p {
+    height: 0px;
+    margin: 1rem 0.2rem 0 0.2rem;
+    font-size: 0.9rem;
+    color: white;
+    visibility: hidden;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+article:hover {
+    background-color: white;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+    transform: scale(1.15);
+    transform-origin: center;
+    z-index: 999;
+}
+
+article:hover p {
+    height: auto;
+    color: var(--dark-gray);
+    visibility: visible;
+}
+
+/* FOOTER
+-------------------------------------------------------------*/
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: var(--dark-gray);
+}

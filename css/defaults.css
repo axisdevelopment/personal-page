@@ -18,8 +18,9 @@ body {
 }
 
 h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 700;
+    line-height: 1.9rem;
     color: var(--green);
 }
 
@@ -42,6 +43,8 @@ h4 {
 }
 
 :root {
+    --extra-light-green: #27c84a;
+    --light-green: #0f6826;
     --green: #0c3c18;
     --dark-green: #0a2210;
     --dark-gray: #0f0f0f;
