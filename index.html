@@ -8,6 +8,7 @@
     <link href="css/index.css" rel="stylesheet">
     <link href="css/defaults.css" rel="stylesheet">
     <title>Braian Rosas</title>
+    <script src="scripts/modalbox.js" defer></script>
 </head>
 <body>
     <header>
@@ -18,7 +19,7 @@
                 <h4>Desarrollador Web | Full Stack | Freelancer</h4>
             </div>
         </div>
-        <a href="/"><button>CONTACTAR</button></a>
+        <button id="contact-btn">CONTACTAR</button>
     </header>
     <main>
         <section class="presentation">
@@ -49,12 +50,36 @@
             <article class="hosting">
                 <img src="images/hosting.png" alt="Logotipo de alojamiento web">
                 <h3>Hosting</h3>
-                <p>Se elegirá el servivio de hosting adecuado que cumpla con las características requeridas de su página y sus servicios, no necesitará preocuparse por configuraciónes, puesto que se le entregará a usted el sitio 100% funcional ya con el hosting implementado.</p>
+                <p>Se elegirá el servicio de hosting adecuado que cumpla con las características requeridas de su página y sus servicios, no necesitará preocuparse por configuraciónes, puesto que se le entregará a usted el sitio 100% funcional ya con el hosting implementado.</p>
             </article>
         </section>
         <section class="empty">
             <!-- Waiting For Content -->
         </section>
+        <div id="mbox-contact">
+            <div class="content">
+                <div class="email">
+                    <h3>Correo electrónico</h3>
+                    <h4>braianrosas.dev@outlook.com</h4>
+                </div>
+                <h3>Redes sociales</h3>
+                <div class="social-contacts">
+                    <div class="box">
+                        <a href="#" id="fb"><div id="fb-img"></div></a>
+                        <a href="#"><h4>@braian.rosas.dev</h4></a>
+                    </div>
+                    <div class="box">
+                        <a href="#" id="fb"><div id="tw-img"></div></a>
+                        <a href="#"><h4>@braian.rosas.dev</h4></a>
+                    </div>
+                    <div class="box">
+                        <a href="#" id="fb"><div id="ig-img"></div></a>
+                        <a href="#"><h4>@braian.rosas</h4></a>
+                    </div>
+                </div>
+                <button id="close">LISTO</button>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="label">
