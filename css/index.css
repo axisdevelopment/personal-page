@@ -276,30 +276,30 @@ article:hover p {
 }
 
 #fb-img {
-    background-image: url("../images/facebook-b.png");
+    background-image: url("../images/facebook-b.webp");
 }
 
 #tw-img {
-    background-image: url("../images/twitter-b.png");
+    background-image: url("../images/twitter-b.webp");
 }
 
 #ig-img {
-    background-image: url("../images/instagram-b.png");
+    background-image: url("../images/instagram-b.webp");
 }
 
 #fb-img:hover {
     cursor: pointer;
-    background-image: url("../images/facebook-hover.png");
+    background-image: url("../images/facebook-hover.webp");
 }
 
 #tw-img:hover {
     cursor: pointer;
-    background-image: url("../images/twitter-hover.png");
+    background-image: url("../images/twitter-hover.webp");
 }
 
 #ig-img:hover {
     cursor: pointer;
-    background-image: url("../images/instagram-hover.png");
+    background-image: url("../images/instagram-hover.webp");
 }
 
 #close {
