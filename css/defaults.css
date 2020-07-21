@@ -6,7 +6,7 @@
 }
 
 @-moz-document url-prefix() {
-    html {
+    p {
         font-weight 600 !important;
     }
     
