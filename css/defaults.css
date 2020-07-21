@@ -5,6 +5,12 @@
     margin: 0;
 }
 
+@-moz-document url-prefix() {
+    html {
+        font-weight 600;
+    }
+}
+
 html {
     font-family: "Quicksand", sans-serif;
     font-size: 18px;
