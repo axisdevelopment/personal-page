@@ -6,13 +6,9 @@
 }
 
 @-moz-document url-prefix() {
-    p {
-        font-weight 600 !important;
-    }
-    
     strong {
         font-family: "Quicksand", sans-serif;
-        font-weight: 700 !important;
+        font-weight: 700;
     }
 }
 
