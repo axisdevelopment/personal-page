@@ -9,6 +9,11 @@
     html {
         font-weight 600;
     }
+    
+    strong {
+        font-family: "Quicksand", sans-serif;
+        font-weight: 700;
+    }
 }
 
 html {
@@ -53,11 +58,6 @@ h4 {
 
 a {
     text-decoration: none;
-}
-
-strong {
-    font-family: "Quicksand", sans-serif;
-    font-weight: 700;
 }
 
 :root {
