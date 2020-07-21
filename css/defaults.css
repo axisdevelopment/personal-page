@@ -49,6 +49,11 @@ a {
     text-decoration: none;
 }
 
+strong {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+}
+
 :root {
     --extra-light-blue: #bbe1fa;
     --light-blue: #3282b8;
